@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int esPrimo(int num) {
+int esPrimo(int num) {// funcion para verificar si es numero primo
     if (num <= 1) {
         return 0; // 0 y 1 no son primos
     }
