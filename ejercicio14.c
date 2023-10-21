@@ -6,9 +6,9 @@ int main (){ //Inicializamos las varibles que usaremos , como almancenar los 10 
     int contador; // contador de las veces que repita
     int numeros [10];//Almacenar lo numeros
     int n=10;
-
+     //pedimos el ingreso de  los datos 
     printf("Ingrese 10 numero enteros:");
-
+    //creamos un ciclo hasta 10 para que sea almacenen los datos 
    for (int i = 0;  i < n; i++ ){
      scanf("%d",&numero);
      suma = numeros[i];
@@ -24,8 +24,8 @@ int main (){ //Inicializamos las varibles que usaremos , como almancenar los 10 
         }
     }
     // mostrar las respuestas
-    printf("El resultado entero de los numeros es:%d\n", promedio);
-    printf("El resultado del promedio del vector es:%d\n",contador);
+    printf("El resultado entero de los numeros es:%d\n", promedio);//obtenemos los datos del promedio
+    printf("El resultado del promedio del vector es:%d\n",contador);// obtenemos los datos del vector
 
     return 0;
 }
