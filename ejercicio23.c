@@ -11,9 +11,9 @@ int main(){
    }
 
    //verificamos los datos 
-   for(int i= 0; i < 9; i++){
+   for(int i= 0; i < 9; i++){//verificacion hasta los 10 valores que se contaria con los otros 9 valores 
     for(j = i + 1; j < 10; j++){
-        if (numero[i == numeros[j]]){
+        if (numero[i == numeros[j]]){//condicion de las plazas osea los 10 valores
             duplicado = 1; // si se encuentra un duplicado establecer el flag
             break; //salimos del bucle para obtener un resultado fijo
         }
