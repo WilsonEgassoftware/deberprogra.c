@@ -2,8 +2,8 @@
 int main (){
     int numero[10];// cantidad de espacio que usaremos
     int referencia;//numero que nos servira verificar sus datos solo 10 datos
-    int contador=0;
-    int ultimoDigito= referencia/10;
+    int contador=0;//lo incializamos en 0
+    int ultimoDigito= referencia/10;// declaramos una varible para obtener el ultimo valor y la referencia dividido para el total
 
     //leer los 10 numeros y almacenarlos
     printf("Ingrese 10 datos enteros:");
