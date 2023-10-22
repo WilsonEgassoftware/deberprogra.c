@@ -5,7 +5,7 @@ int main(){
    //solicitar el ingreso e los 10 numeros
    printf("Ingrese 10 numeros enteros:");
     //bucle de repetecion
-   for (int i = 0;  i<10 ; i++ ){
+   for (int i = 0;  i<10 ; i++ ){//lectura del bucle de comprobacion en general
       printf("Numero %d:", i, 1);
       scanf("%d",&numero[i]);//verificacion de los datos con los 10 datos 
    }
