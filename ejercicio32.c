@@ -13,7 +13,7 @@ int main (){
 
     //leer un ejercicio adicional para obtener una referencia
     printf("Ingrese un dato entero de prueba:\n");
-    scanf("%d",&referencia);
+    scanf("%d",&referencia);//leemos el dato de la referencia general para tener una idea 
 
     //A través del vector y contar cuántos números terminan en el mismo dígito.
     for(int i=0; i<10;i++){
